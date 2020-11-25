@@ -18,6 +18,7 @@
     padding: 0.50rem;
 }
 
+
 /* Home Article */
 
 #home-articles .articles-container{
@@ -37,6 +38,12 @@
     #main-footer .footer-container {
         grid-template-columns: 1fr;
     }
+
+    #showcase .showcase-content p{
+        font-size: 13px;
+        padding: 0 0.2rem;
+    }
+      
 
     #main-footer .footer-container > *:last-child{
         grid-column: 1;
